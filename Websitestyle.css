@@ -54,13 +54,12 @@ h2 {
   opacity: 90%
 }
 
-.me {
-  display: flex;
-  flex-wrap: wrap
-}
-
 input {
   width: 50%;
+}
+
+.me {
+  border-radius: 10%;
 }
 
 .footer{
