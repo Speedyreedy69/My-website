@@ -9,12 +9,13 @@ h2 {
   text-decoration: underline;
 }
 
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
-
 .navbartitle {
   background-color: grey;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  color: white;
 }
 
 .section-1 {
@@ -56,4 +57,14 @@ h2 {
 .me {
   display: flex;
   flex-wrap: wrap
+}
+
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #697DBE;
+  color: #F6FFF8;
 }
