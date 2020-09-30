@@ -10,9 +10,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="websitestyle.css">
+    <link rel="stylesheet" href="javascript.js">
     <title>Hello, world!</title>
   </head>
-  <body class="Navbartitle container" style="background-color: #8C97BB;">
+  <!-- <body class="Navbartitle container" style="background-color: #8C97BB;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light;" style="background-color: #697DBE;">
         <a class="navbar-brand" href="#">Lewis Reed</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,12 +42,29 @@
           </ul>
         </div>
       </nav>
-  </body>
+  </body> -->
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</body>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">open</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  ...
+</div>
   <section class="section-1">
     <div class="card centre-text">
         <div class="card-body introduction">
           <h2>Want to know more about me and how I got here?</h2>
-          <p style="float: ;">
+          <p>
             I started at Admiral back in 2016 with the Renewals department. I managed to work though several different roles from being first point of contact on the phones and website to a trainer out in Halifax, Canada. 
             The opportunity came about to enter the IT department through an extensive course with further training  on the job. After a few weeks of interviews and video calls I received the call to accept me onto the course! 
             You will be able to follow my progress and development with the blog that I will keep up to date below.
