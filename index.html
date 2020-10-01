@@ -1,124 +1,219 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <body>
-  <head>
-    <meta http-equiv="content-type" content="tecxt/html; charset=utf-8">
-    <link rel="icon" href="/Images/favicon.ico"> 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Freelancer - Start Bootstrap Theme</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet">
+        <!-- Fonts CSS-->
+        <link rel="stylesheet" href="heading.css">
+        <link rel="stylesheet" href="body.css">
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Lewis Reed</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">GAMES</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="/Images/Capture.PNG" alt="">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">Welcome</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">HTML &amp; CSS - Javascript - Agile &amp; Scrum</p>
+            </div>
+        </header>
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Items-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="/Images/htmlcssjs-overview.png" alt="Week 1"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Modal-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Week 1</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/htmlcssjs-overview.png" alt="Week 1"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">In the first week of the course we were introduced to visual studio and the git-hub where would be logging the projects and making the start of our portfolio. 
+Part of the first week was being taught how to write basic code with HTML and CSS for the styling of the website. Towards the end of the week we were given the project of putting all we had learnt in the first few days and applying it to coding a website which we would keep up to date and develop and update throughout the course. </p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Week 2</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">This second week I we have been working on the Agile framework and how to apply it to the role. On top of that we have also been introduced to Trello to assist us with the use of Scrum and managing tickets.
+Take a look at the project I have been working on for a new state of the art health symptom tracker, you will be able to see my progress here.
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="websitestyle.css">
-    <script src="javascript.js"></script>
-    <title>Lewis</title>
-  </head>
-  <!-- <body class="Navbartitle container" style="background-color: #8C97BB;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light;" style="background-color: #697DBE;">
-        <a class="navbar-brand" href="#">Lewis Reed</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-primary" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Introduction <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/lewis-reed-957604127/" target="_blank">Linkedin</a>
-              <link rel="stylesheet" href="Linkedin">
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Weeks
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Week 1</a>
-                <a class="dropdown-item" href="#">Week 2</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Games</a>
-              </div>
-            </li>
-          </ul>
+https://trello.com/invite/b/da8bcsNE/118117f77b5d3a7181f621b9ff999b2c/healthwealth</p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </nav>
-  </body> -->
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">About</a>
-      <a href="#">My Progress</a>
-      <a href="#">Game</a>
-      <a href="#">Contact</a>
-    </div>
-    <span onclick="openNav()">Menu</span>
-    <div id="main">
-    </div>
-  </div>
-  <section class="section-1">
-    <div class="card centre-text">
-        <div class="card-body introduction">
-          <h2>Want to know more about me and how I got here?</h2>
-          <p>
-            I started at Admiral back in 2016 with the Renewals department. I managed to work though several different roles from being first point of contact on the phones and website to a trainer out in Halifax, Canada. 
-            The opportunity came about to enter the IT department through an extensive course with further training  on the job. After a few weeks of interviews and video calls I received the call to accept me onto the course! 
-            You will be able to follow my progress and development with the blog that I will keep up to date below.
-          </p>
-            <h4>Week 1</h4>
-            <p>
-              In the first week of the course we were introduced to visual studio and the git-hub where would be logging the projects and making the start of our portfolio. 
-              Part of the first week was being taught how to write basic code with HTML and CSS for the styling of the website. Towards the end of the week we were given the project,
-              of putting all we had learnt in the first few days and applying it to coding a website which we would keep up to date and develop and update throughout the course. 
-            </p>
-          <img class="me" src="/Images/Me.JPG" alt="Lewis Reed" style="height:200px; width: 250px;">
-          <h4>Week 2</h4>
-          <p>
-            This second week I we have been working on the Agile framework and how to apply it to the role. On top of that we have also been introduced to Trello to assist us with the use of Scrum and managing tickets.
-            Take a look at the project I have been working on for a new state of the art health symoptom tracker, you will be able to see my progress here.</p>
-        </div>
-      </div>
-  </section>
-  <section class="section-2">
-    <div class="card centre-text card-body">
-      <h2>Course Information</h2>
-      <p>
-        <b>Basic Programming</b>: You’ll perform the role of a developer, learning the basics of programming in HTML, CSS and even some JavaScript. You certainly won’t be measured as full time coders by the end of the course, but you’ll have enough to get started and give you hands on experience of life as a programmer.
-        <br><b>Life in a Tech team</b>: We’ll cover Agile from its founding principles as well as best practices relating to the delivery of tech projects. This will include the practical day-to-day processes of Scrum as well as a deeper understanding of how requirements are created, investigated, developed, tested and verified as completed in tech projects.
-        <br><b>Testing</b>: Arguably the most important part of Software Development. What are all the ways we test a product? Why are we testing? How can we check that our tests are adding value?
-        <br><b>Deployment/Maintenance</b>: OK so we’ve got the requirements, built the product, tested it works in isolation. But how do we make it accessible to users? Where does the product go, and how do we make sure it keeps working?
-      </p>
-    </div>
-  </section>
-  <section class="section-3">
-    <div class="card centre-text card-body">
-      <h2>Java Game</h2>
-      <p>
-        <img src="/Images/Pacman.webp" alt="Click to Play">
-      </p>
-    </div>
-  </section>
-  <section class="section-4">
-    <div class="card centre-text card-body">
-      <h2>Contact/More Info</h2>
-      <p>
-        <form action="/action_page.php">
-          <label for="fname">Name:</label><br>
-          <input type="text" id="fname" name="fname" value="E.g Lewis"><br>
-          <label for="fname">Email:</label><br>
-          <input type="text" id="fname" name="fname" value="E.g Lewis.reed@nology.io"><br>
-          <label for="lname">Comments:</label><br>
-          <input type="text" id="lname" name="lname" value="E.g Room for improvement"><br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </p>
-    </div>
-  </section>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <footer class = "footer">
-      <p>&copy;Lewis Reed 2020</p>
-    </footer>
-  </body>
-</html>
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="pre-wrap lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="pre-wrap lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:Lewis.reed2@admiralgroup.co.uk">Lewis.reed2@admiralgroup.co.uk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">Workplace</h4>
+                        <p class="pre-wrap lead mb-0">Ty Admiral, Cardiff, Wales</p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">Find Me</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/https://www.linkedin.com/in/lewis-reed-957604127/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="mb-4">Email</h4>
+                        <p class="pre-wrap lead mb-0">Work - Lewis.reed2@admiralgroup.co.uk
+Personal Enquiries - Lewistreed@outlook.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small class="pre-wrap">Copyright © Lewis Reed 2020 </small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></
