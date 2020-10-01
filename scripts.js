@@ -1,12 +1,7 @@
-/*!
-    * Start Bootstrap - Freelancer v6.0.0 (https://startbootstrap.com/themes/freelancer)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
-    */
    (function($) {
-    "use strict"; // Start of use strict
+    "use strict";
   
-    // Smooth scrolling using jQuery easing
+    
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
@@ -65,5 +60,5 @@
       });
     });
   
-  })(jQuery); // End of use strict
+  })(jQuery);
   
